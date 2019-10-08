@@ -2,7 +2,7 @@
 A shopping app using React Navigation, Redux, Redux-Thunk and Firebase.
 
 ## Features
-- authentification screen to log in or sign up.
+- authentication screen to log in or sign up.
 - shop to see all products and product details.
 - cart to add/remove products and order them.
 - orders screen to retrieve orders.
