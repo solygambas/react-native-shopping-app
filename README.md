@@ -15,12 +15,12 @@ A shopping app using React Navigation, Redux, Redux-Thunk and Firebase.
 - custom header title with navigationOptions.
 - custom cart button in the header with react-navigation-header-buttons.
 - custom SideDrawer with react-navigation-drawer.
-- adding listener with props.navigation.addListener to reload live data from server.
+- adding listener with props.navigation.addListener to reload data from server.
 - handling manual logout with SafeAreaView and DrawerNavigatorItems.
 - handling autologout and forced reload with a custom wrapper for the navigator thanks to useRef and NavigationActions.
 
 ## Redux and React-Redux
-- using actions and reducers to authenticate and to store data (token and user ID, cart, products, orders).
+- using actions and reducers to authenticate and to store data (token and user ID, products, cart, orders).
 - using useSelector hook to get the state.
 - using props.navigation to pass data to the header without re-render.
 - using useDispatch hook to dispatch actions. 
@@ -29,7 +29,7 @@ A shopping app using React Navigation, Redux, Redux-Thunk and Firebase.
 - debugging with redux-devtools-extension and React Native debugger.
 
 ## React Native
-- using FlatList, ScrollView, TouchableOpacity, KeyboardAvoidingView, ActivityIndicator, Alert, AsyncStorage, SafeAreaView.
+- using FlatList, ScrollView, TouchableOpacity, KeyboardAvoidingView, ActivityIndicator, Alert, AsyncStorage and SafeAreaView.
 - custom reusable components (Card, HeaderButton, Input).
 - custom fonts, color and environment constants.
 - using React hooks (useState, useEffect, useCallback, useReducer, useRef).
@@ -38,9 +38,9 @@ A shopping app using React Navigation, Redux, Redux-Thunk and Firebase.
 - handling sessions with AsyncStorage, setItem and getItem.
 
 ## Redux-Thunk and Firebase
-- using Redux-thunk as a middleware to have async code.
+- using Redux-thunk as a middleware to add async code.
 - using Firebase as a database for products and orders with fetch (POST, PATCH, DELETE).
-- handling authentication with Firebase(email and password).
+- handling authentication with Firebase (email and password).
 - showing a loading spinner with ActivityIndicator and useState while fetching data/trying to authenticate.
 - handling errors with try/catch blocks and throwing Alerts. 
 - using getState from Redux-thunk to send http requests with a token.
