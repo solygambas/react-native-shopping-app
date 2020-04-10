@@ -7,6 +7,16 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/react-native-shopping-app.git"
+  },
+  "author": "solygambas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solygambas/react-native-shopping-app/issues"
+  },
+  "homepage": "https://github.com/solygambas/react-native-shopping-app#readme",
   "dependencies": {
     "expo": "^35.0.0",
     "expo-font": "^7.0.0",
