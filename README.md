@@ -45,5 +45,8 @@ A shopping app using React Navigation, Redux, Redux-Thunk and Firebase.
 - handling errors with try/catch blocks and throwing Alerts. 
 - using getState from Redux-thunk to send http requests with a token.
 
+## Usage
+
+You need to add Environment.js in the constants folder and provide your Firebase keys in it.
 
 Based on [React Native - The Practical Guide](https://www.udemy.com/react-native-the-practical-guide/) by Maximilian Schwarzmüller.
