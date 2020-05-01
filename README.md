@@ -47,6 +47,6 @@ A shopping app using React Navigation, Redux, Redux-Thunk and Firebase.
 
 ## Usage
 
-You need to add Environment.js in the constants folder and provide your Firebase keys in it.
+You need to create a file named Environment.js in the constants folder and provide your Firebase keys in it.
 
 Based on [React Native - The Practical Guide](https://www.udemy.com/react-native-the-practical-guide/) by Maximilian Schwarzmüller.
