@@ -1,12 +1,34 @@
-import React from "react";
-import { StyleSheet, Image, Text, View } from "react-native";
+import React, { useState } from "react";
+// import { StyleSheet, Image, Text, View } from "react-native";
+import { StyleSheet, FlatList, Text, View } from "react-native";
+import { uuid } from "uuidv4";
 
 import Header from "./components/Header";
+import ListItem from "./components/ListItem";
 
 export default function App() {
+  const [items, setItems] = useState([
+    { id: uuid(), text: "Milk" },
+    { id: uuid(), text: "Eggs" },
+    { id: uuid(), text: "Bread" },
+    { id: uuid(), text: "Juice" },
+  ]);
+
+  const deleteItem = (id) => {
+    setItems((prevItems) => {
+      return prevItems.filter((item) => item.id !== id);
+    });
+  };
+
   return (
     <View style={styles.container}>
       <Header />
+      <FlatList
+        data={items}
+        renderItem={({ item }) => (
+          <ListItem item={item} deleteItem={deleteItem} key={item.id} />
+        )}
+      />
       {/* <Text style={styles.text}>Hello World</Text>
       <Image
         style={styles.img}
