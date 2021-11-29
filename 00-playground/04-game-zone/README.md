@@ -8,6 +8,6 @@ A reviews app.
 
 ## Features
 
--
+- adding custom fonts with useFonts and AppLoading.
 
 Based on [React Native Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ) by Shaun Pelling - The Net Ninja (2019).
