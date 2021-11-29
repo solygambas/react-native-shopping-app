@@ -11,6 +11,7 @@ import {
 import AddTodo from "./components/AddTodo";
 
 import Header from "./components/Header";
+import Sandbox from "./components/Sandbox";
 import TodoItem from "./components/TodoItem";
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
   };
 
   return (
+    // <Sandbox />
     <TouchableWithoutFeedback
       onPress={() => {
         Keyboard.dismiss();
@@ -68,9 +70,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   content: {
+    flex: 1,
     padding: 40,
   },
   list: {
+    flex: 1,
     marginTop: 20,
   },
 });
