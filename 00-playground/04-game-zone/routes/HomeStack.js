@@ -14,7 +14,7 @@ export default function HomeStack() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Reviews" component={ReviewDetails} />
+        <Stack.Screen name="ReviewDetails" component={ReviewDetails} />
       </Stack.Navigator>
     </NavigationContainer>
   );
