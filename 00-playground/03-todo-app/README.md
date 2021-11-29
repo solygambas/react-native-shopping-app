@@ -3,7 +3,7 @@
 A simple app to work with components.
 
 <p align="center">
-        <img src="screenshot.png" style="width:100%;max-width: 100%;">
+        <img src="screenshot.png" style="width:700px;max-width: 100%;">
 </p>
 
 ## Features

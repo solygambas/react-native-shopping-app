@@ -3,7 +3,7 @@
 Another quick intro to React Native.
 
 <p align="center">
-        <img src="screenshot.png">
+        <img src="screenshot.png" style="width:700px;max-width: 100%;">
 </p>
 
 ## Features
