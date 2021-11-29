@@ -1,4 +1,5 @@
 // https://reactnavigation.org/docs/hello-react-navigation
+// https://reactnavigation.org/docs/native-stack-navigator#props
 
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
@@ -12,9 +13,25 @@ const Stack = createNativeStackNavigator();
 export default function HomeStack() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="ReviewDetails" component={ReviewDetails} />
+      <Stack.Navigator
+        initialRouteName="Home"
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: "#eee",
+          },
+          headerTintColor: "#444",
+        }}
+      >
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{ title: "GameZone" }}
+        />
+        <Stack.Screen
+          name="ReviewDetails"
+          component={ReviewDetails}
+          options={{ title: "Review Details" }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -11,6 +11,6 @@ A reviews app.
 - adding custom fonts with useFonts and AppLoading.
 - adding global styles.
 - creating a stack navigator with React Navigation 6.
-- navigating around with navigation props.
+- navigating around and passing data between screens.
 
 Based on [React Native Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ) by Shaun Pelling - The Net Ninja (2019).
