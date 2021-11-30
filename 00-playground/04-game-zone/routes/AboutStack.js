@@ -1,24 +1,21 @@
 // https://reactnavigation.org/docs/hello-react-navigation
 // https://reactnavigation.org/docs/native-stack-navigator#props
-// https://reactnavigation.org/docs/nesting-navigators/
 
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Home from "../screens/Home";
-import ReviewDetails from "../screens/ReviewDetails";
+import About from "../screens/About";
 
 const Stack = createNativeStackNavigator();
 
-export default function HomeStack() {
+export default function AboutStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{ title: "GameZone" }}
+        name="About"
+        component={About}
+        options={{ title: "About GameZone" }}
       />
-      <Stack.Screen name="ReviewDetails" component={ReviewDetails} />
     </Stack.Navigator>
   );
 }

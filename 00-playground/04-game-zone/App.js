@@ -1,10 +1,10 @@
 // https://docs.expo.dev/guides/using-custom-fonts/
-
+import "react-native-gesture-handler";
 import React from "react";
 import AppLoading from "expo-app-loading";
 import { useFonts } from "expo-font";
 
-import HomeStack from "./routes/HomeStack";
+import DrawerNavigation from "./routes/DrawerNavigation";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -14,6 +14,6 @@ export default function App() {
   if (!fontsLoaded) {
     return <AppLoading />;
   } else {
-    return <HomeStack />;
+    return <DrawerNavigation />;
   }
 }
