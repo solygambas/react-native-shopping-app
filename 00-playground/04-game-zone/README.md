@@ -1,10 +1,10 @@
 # Game Zone
 
-A reviews app.
+A reviews app using React Navigation 6, Formik and Yup.
 
-<!-- <p align="center">
+<p align="center">
         <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
@@ -13,7 +13,7 @@ A reviews app.
 - creating a stack navigator with React Navigation 6.
 - navigating around and passing data between screens.
 - adding a drawer and nesting navigators.
-- displaying custom card component, modal and images.
+- displaying custom card component, button, modal and images.
 - handling user reviews with Formik.
 - validating user inputs with Yup.
 
